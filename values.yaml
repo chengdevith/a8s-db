@@ -67,3 +67,9 @@ ingress:
 
 autoscaling:
   enabled: false
+
+serviceAccount:
+  create: false
+  automount: true
+  annotations: {}
+  name: ""
