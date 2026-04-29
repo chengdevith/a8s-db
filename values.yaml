@@ -14,11 +14,6 @@ postgresql:
   username: a8s
   password: strongpassword
 
-persistence:
-  enabled: true
-  size: 10Gi
-  storageClass: ""
-
 env:
   - name: POSTGRES_DB
     value: a8s_db
